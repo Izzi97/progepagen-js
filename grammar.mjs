@@ -1,5 +1,4 @@
-import { isEmpty } from './util.mjs'
-import { error } from './util.mjs'
+import { isEmpty, error } from './util.mjs'
 
 class Production {
   /**
@@ -53,6 +52,9 @@ export class Grammar {
   * @returns {Grammar}
   */
   static from(terminals, productions) {
+
+    // TODO: rethink this input sanitation
+
     if (isEmpty(terminals))
       error('no terminals provided')
     if (containsFalsyValue(terminals))
