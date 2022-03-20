@@ -7,7 +7,7 @@ export default [
   
   ['BINARY', 2, ['zero', 'BINARY']],
   ['BINARY', 2, ['one', 'BINARY']],
-  ['BINARY', 1, ['one']],
+  ['BINARY', 1, ['zero']],
   ['BINARY', 1, ['one']],
 
   ['BRACKETED', NaN, [ 'leftBracket', 'jeff', 'rightBracket']],

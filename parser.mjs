@@ -1,4 +1,4 @@
-import { error, isEmpty } from './util.mjs'
+import { isEmpty } from './util.mjs'
 
 import { Token } from './lexer.mjs'
 import { Grammar } from './grammar.mjs'
